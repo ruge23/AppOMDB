@@ -1,0 +1,73 @@
+body {
+  background-color: #E4E4E4;
+  font-family: "San Francisco", "Helvetica Neue", Helvetica,Arial,sans-serif;
+}
+
+.page-header {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  background-color: black;
+}
+
+.caption h3 {
+  margin: 3px 0px;
+  font-size: 13px;
+  color: black;
+  display: inline;
+}
+
+.caption p {
+  display: inline;
+  color: black;
+}
+
+.thumbnail .caption {
+  min-height: 6.5em;
+}
+
+.thumbnail {
+  padding: 0;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.22);
+  position: relative;
+}
+
+.thumbnail .img-responsive {
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+}
+.thumbnail .img-respons {
+  border-radius: 10px 10px 0px 0px;
+  width: 50%;
+}
+
+.thumbnail > div {
+    display: none
+}
+.thumbnail > div:first-child {
+    display: block
+}
+.thumbnail:hover > div {
+    display: block
+}
+
+.navLinks {
+  padding-top: 10px;
+}
+
+.navLinks a {
+    margin: 10px;
+    color: black;
+    border-bottom: 1px solid #A2A2A2;
+}
+
+.control-buttons{
+  display: flex;
+  justify-content: space-between;
+}
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 100;
+  src: url("//applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff2");
+}
